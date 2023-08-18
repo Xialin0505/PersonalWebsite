@@ -12,31 +12,28 @@ const About = () => {
     {
       title: 'Web and App Development',
       description:
-        'possess a comprehensive understanding of both frontend and backend development',
+        'Possess a comprehensive understanding of application development process, proficiency in API design',
       imgUrl: images.about1,
     },
     {
       title: 'Backend Development',
       description:
-        'Skilled in backend development and capable of establishing connections to database for efficient data transmission',
+        'Skilled in building resilient, distributed backend system for optimizing performance and CPU usage',
       imgUrl: images.about2,
     },
+  
     {
-      title: 'Frontend Development',
+      title: 'Cloud Computing',
       description:
-        'Proficient in using HTML, CSS, React etc. to create interactive and user-friendly user interfaces for web applications.',
+        'Experience in various cloud computing tools: hadoop, spark and kafka, with a high level insight of their principles',
       imgUrl: images.about3,
     },
+
     {
-      title: 'Server Deployment and Cloud Computing',
+      title: 'DevOps and Site Reliability Engineer',
       description:
-        'Experienced in deploying web applications and backend services on Oracle and AWS servers, ensuring efficient performance and scalability',
-      imgUrl: images.about4,
-    },
-    {
-      title: 'AI Model Training',
-      description:
-        'Well-versed in training regression models for predictive analysis and object detection models for image and video processing tasks',
+        `Skilled in design and implement scalable, secure, and highly available cloud architectures, to monitor and optimize the
+        performance of the cloud architectures`,
       imgUrl: images.about5,
     },
   ]
@@ -54,10 +51,10 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px]
       max=2-3xl leading-[30px]">
-        As an skilled backend developer, I have hands-on experience in a diverse range of 
-        programming languages including Java, C++, Python, and Go, alongside in-depth expertise in database management 
-        using MySQL. My knowledge of cloud technologies such as Docker, AWS, and Terraform, and my advance Linux adminstration 
-        skills, empowering me to deploy scalable and resilient backend solutions with minimum effort. 
+        I am an adept backend developer with practical proficiency across a variety of programming languages, 
+        including Java, C++, Python, and Go. In addition, I possess extensive knowledge in database administration, 
+        specifically in MySQL. My familiarity with cloud tools like Docker, AWS, and Terraform, paired with my advanced 
+        Linux administration capabilities, equips me to effortlessly create backend solutions that are both scalable and robust.
       </motion.p>
 
       <div className="app__profiles">

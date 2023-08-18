@@ -16,10 +16,10 @@ import git from "./tech/git.png"
 import html from "./tech/html.png"
 import javascript from "./tech/javascript.png"
 import about01 from './about01.png'
-import about02 from './about02.png'
-import about03 from './about03.png'
+import about02 from './about02.jpeg'
+import about03 from './about03.jpeg'
 import about04 from './about04.png'
-import about05 from './about05.png'
+import about05 from './about05.webp'
 import Cpp from "./tech/Cpp.png"
 import AI_micro from "./tech/AI_micro.png"
 import androidstudio from "./tech/androidstudio.png"
@@ -55,13 +55,25 @@ import cmu from './cmu.png'
 import cmu2 from './cmu2.png'
 import javaLogo from './java.webp'
 import pythonLogo from './python2.avif'
+import Go from './go.png'
+import Linux from './linux.png'
+import recipe from './recipe.avif'
+import leisurely from './leisurely.png'
+import os from './os.jpeg'
+import compiler from './compiler.webp'
 
 export {
   faceDetection,
   about05,
   house,
   AI,
+  Go,
+  recipe,
+  leisurely,
+  Linux,
   cmu,
+  compiler,
+  os,
   cmu2,
   javaLogo,
   about01,

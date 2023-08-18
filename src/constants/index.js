@@ -4,26 +4,20 @@ import {
   creator,
   web,
   javascript,
-  typescript,
-  html,
-  dBeaver,
   Cpp,
   aws,
-  androidstudio,
-  AI_micro,
   mysql,
   postman,
   python,
   pythonLogo,
-  wordpress,
-  css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
-  mongodb,
+  Linux,
+  compiler,
+  os,
+  leisurely,
+  recipe,
   git,
-  figma,
   docker,
   cmu,
   cmu2,
@@ -39,6 +33,7 @@ import {
   AI,
   house,
   faceDetection,
+  Go,
 } from "../assets"
 
 export const navLinks = [
@@ -77,15 +72,6 @@ const services = [
 
 const technologies = [
 
-
-  // {
-  //   name: "dBeaver",
-  //   icon: dBeaver
-  // },
-  // {
-  //   name: "AI_micro",
-  //   icon: AI_micro
-  // },
   {
     name: "mysql",
     icon: mysql
@@ -99,65 +85,46 @@ const technologies = [
     icon: postman
   },
 
-
-  // {
-  //   name: "wordpress",
-  //   icon: wordpress
-  // },
-
-
   {
-    name: "HTML 5",
-    icon: html,
+    name: "AWS EC2",
+    icon: aws,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+ 
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  
   {
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  
   {
     name: "docker",
     icon: docker,
   },
+
+  {
+    name: "cpp",
+    icon: Cpp,
+  },
+
+  {
+    name: "Go",
+    icon: Go,
+  },
+
+  {
+    name: "Java",
+    icon: javaLogo,
+  },
+
 ]
 
 const experiences = [
@@ -168,8 +135,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sept 2018 - May 2023",
     points: [
-      // 待修改
-      "Broad knowledge from diverse courses: University of Waterloo offers a wide curriculum, enhancing students' knowledge across various subjects and enriching their learning experience.",
+      "Broad knowledge from diverse courses including: machine learning, cloud computing, and ",
       "C++ programming: Students learn C++ and utilize it to implement various functionalities and features.",
       "Comprehensive Computer Engineering program: University of Waterloo offers a comprehensive program covering computer architecture, software development, digital systems, networking, and more.",
       "Code writing for Hardware: Students learn how to write code for Hardware using Quartus VHDL, specifically in the context of designing projects for FPGA.",
@@ -183,11 +149,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2019 - Apr 2019",
     points: [
-      // 待修改
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Implemented and extended a Java-based API (SDK) automation testing system for the company's Android
+      application, enhancing the efficiency and reliability of testing processes.`,
+      `Authored comprehensive documentation and established guidelines for creating future documentation
+      throughout the organization.`,
+      `Facilitated effective team collaboration by organizing daily meetings, assigning tasks within the QA team, and
+      led the team to successfully accomplish objectives before the end of each Agile development cycle.`,
     ],
   },
 
@@ -198,26 +165,29 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2019 - Apr 2019",
     points: [
-      // 待修改
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Designed, developed, and implemented an extensible and comprehensive automation testing/analysis
+      framework using Python and bash, to evaluate the performance of company's research project on enhancing
+      data transmission protocols for video streaming.`,
+      `Automated performance testing processes, saving 16 hours of testing time. Collected performance statistics
+      and conducted in-depth analysis of protocol effectiveness, generating automated testing reports for valuable
+      insights and data-driven decision-making.`,
+      `Collaborated closely with Linux systems, effectively troubleshoot and resolved networking issues on Linux
+      servers, ensuring smooth operations and optimal performance.`,
     ],
   },
 
   {
     title: "Junior Dev-ops",
     company_name: "Tucows Inc.",
-    icon: reactjs,
+    icon: aws,
     iconBg: "#383E56",
     date: "Apr. 2020 – Aug. 2020, Jan 2021 - Apr 2021",
     points: [
-      // 待修改
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Collaborated with the site reliability team to develop and optimize infrastructure modules/nodes on the company's cloud platform, 
+      established and maintained automated monitoring for the organization's systems, which provided valuable benefits to multiple teams`,
+      `Explored innovative approaches to leverage cloud technologies resulting in significant improvements to the company’s infrastructure 
+      and development process. Successfully reduced server load by 30% and enabled efficient local testing for streamlined development process.`,
+      "Achieved a remarkable reduction in node deployment time to 2 minutes, with flexible add-on options.",
     ],
   },
 
@@ -228,7 +198,6 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2023 - Present",
     points: [
-      // 待修改
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -240,9 +209,66 @@ const experiences = [
 
 const projects = [
   {
+    name: "Leisurely - Itinerary Day-trip Planner App",
+    description:
+      `Leisurely is an itinerary day-trip planner app that generate personalize one day trip plan on Andriod operating systems.`,
+    tags: [
+      {
+        name: "Postgresql",
+        color: "brown-text-gradient",
+      },
+      {
+        name: "Go language",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Android Studio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:leisurely,
+    source_code_link: "https://github.com/Xialin0505/Leisurely-backend",
+  },
+  {
+    name: "Recipe Website Backend",
+    description:
+      `A high-performance MySQL database for a website that store hundreds of recipe, ensuring
+      improved data consistency and minimizing human error.`,
+    tags: [
+      {
+        name: "MySQL",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Database",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: recipe,
+    source_code_link: "https://github.com/Xialin0505/RecipeDatabase",
+  },
+
+  {
     name: "Cafe Website",
     description:
-      "Developed a responsive website using Node.js as the backend framework, along with HTML, CSS, and MySQL for the frontend. Implemented a user reservation system and an admin panel for efficient management.",
+      `A café website displaying the café’s location and menu, featuring an interacting
+      reservation system and admin panel reservation management.`,
     tags: [
       {
         name: "Node js",
@@ -258,66 +284,14 @@ const projects = [
       },
     ],
     image: cafe,
-    source_code_link: "https://github.com/xiayulin123/user_back_end.git",
-  },
-  {
-    name: "Leisurely - Itinerary Day-trip Planner App",
-    description:
-      "YulinNote is a notes website with both front-end and back-end deployed on Oracle Cloud, connected to a Mongo database. It allows users to record notes and includes authentication functionality.",
-    tags: [
-      {
-        name: "Postgresql",
-        color: "brown-text-gradient",
-      },
-      {
-        name: "Go language",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "AWS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Docker",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NLP",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "Android Studio",
-        color: "blue-text-gradient",
-      },
-    ],
-    source_code_link: "https://github.com/xiayulin123/NoteBook",
-  },
-  {
-    name: "Recipe Website Backend",
-    description:
-      "FaceSim Detect is an advanced facial recognition system utilizing Siamese network architecture. It offers real-time facial verification and detection, capturing images from webcams and computing similarity distances. Securely designed with TensorFlow and OpenCV, it ensures user confidence through robust authentication.",
-    tags: [
-      {
-        name: "MySQL",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Database",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: faceDetection,
-    source_code_link: "https://github.com/xiayulin123/Facial_Recognition",
+    source_code_link: "https://github.com/Xialin0505/CafeWebPage",
   },
 
   {
     name: "Real-time Operating System",
     description:
-      "Star Chat is a lightweight messaging application designed for seamless communication between users. It provides a delightful user experience and has been optimized to maximize its effectiveness.",
+      `A operating system written in C on Keil MCB1700 board, which is able to display user's keyboard input, 
+      display a clock to the console and take user's input instructions`,
     tags: [
       {
         name: "C",
@@ -328,50 +302,26 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
-    image: starChat,
-    source_code_link: "https://github.com/xiayulin123/StarChat_frontend",
+    image: os,
+    source_code_link: ""
   },
   {
-    name: "Compiler Model",
+    name: "Compiler for Logical Equation",
     description:
-      "This repository houses two AI models, one for movie rating prediction (Movie_Rate) and the other for California housing price estimation (California_Housing), utilizing Python libraries like Pandas, NumPy, Matplotlib, and Seaborn, along with datasets from Kaggle, to train and optimize these models, resulting in highly efficient and accurate predictions.",
+      `This Java-based project fully ultilize the Object-Orient Programming Principle, 
+      which is to automatically translate betweeen logical equation and its corresponding Logic Gate`,
     tags: [
       {
-        name: "Pandas",
+        name: "Java",
         color: "yellow-text-gradient",
       },
       {
-        name: "NumPy",
+        name: "OOP",
         color: "blue-text-gradient",
       },
-      {
-        name: "Matplotlib",
-        color: "green-text-gradient",
-      },
     ],
-    image: house,
-    source_code_link: "https://github.com/xiayulin123/MovieRate_and_CaliforniaHousing_AI_Model",
-  },
-  {
-    name: "Object Detection",
-    description:
-      "The AI project is an object recognition model developed in Jupyter Notebook using PyTorch, OpenCV, and NumPy to identify AirPods and water bottles in images with detailed instructions provided to retrain and extend the model's capabilities. The project also incorporates YOLOv5 for real-time object detection and an image labeling tool for data preparation.",
-    tags: [
-      {
-        name: "Node js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "purple-text-gradient",
-      },
-    ],
-    image: AI,
-    source_code_link: "https://github.com/xiayulin123/Object_Detection",
+    image: compiler,
+    source_code_link: ""
   },
 ]
 const images =
