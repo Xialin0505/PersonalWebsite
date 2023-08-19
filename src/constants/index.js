@@ -135,10 +135,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sept 2018 - May 2023",
     points: [
-      "Broad knowledge from diverse courses including: machine learning, cloud computing, and ",
-      "C++ programming: Students learn C++ and utilize it to implement various functionalities and features.",
-      "Comprehensive Computer Engineering program: University of Waterloo offers a comprehensive program covering computer architecture, software development, digital systems, networking, and more.",
-      "Code writing for Hardware: Students learn how to write code for Hardware using Quartus VHDL, specifically in the context of designing projects for FPGA.",
+      "Broad knowledge from diverse courses including: machine learning, cloud computing, and distributed systems",
+      "Established solid foundation of programming skills, concept and knowledge",
+      "Graduated with Distinction on Dean's honor list, as recognition for students with outstanding academic achievement",
+      `Earned two president awards, which given for students with outstanding academic achievement who undertake undergraduate 
+      research assistantship and alone with outstanding academic achievement.`
     ]
   },
 
@@ -198,10 +199,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Specialize in Distributed system and cloud computing, by taking relevant courses",
+      "Further develop professional skills by taking advanced courses on more specialized topics",
     ],
   },
 ]
