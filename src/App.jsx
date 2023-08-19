@@ -21,7 +21,7 @@ const App = () => {
 
           <Hero />
         </div>
-        <div style={{ backgroundImage: `url(${infoback})` }}>
+        <div>
           <About />
         </div>
         <Experience />
