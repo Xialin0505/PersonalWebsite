@@ -150,7 +150,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2019 - Apr 2019",
     points: [
-      `Implemented and extended a Java-based API (SDK) automation testing system for the company's Android
+      `Led a team of 6 peopele, to implemented and extended a Java-based API (SDK) automation testing system for the company's Android
       application, enhancing the efficiency and reliability of testing processes.`,
       `Authored comprehensive documentation and established guidelines for creating future documentation
       throughout the organization.`,
@@ -167,9 +167,9 @@ const experiences = [
     date: "Jan 2019 - Apr 2019",
     points: [
       `Designed, developed, and implemented an extensible and comprehensive automation testing/analysis
-      framework using Python and bash, to evaluate the performance of company's research project on enhancing
-      data transmission protocols for video streaming.`,
-      `Automated performance testing processes, saving 16 hours of testing time. Collected performance statistics
+      framework using Python and bash, integrated with Jenkins and Docker, to evaluate the performance of company's research 
+      project on enhancing data transmission protocols for video streaming.`,
+      `Automated performance testing processes, saving 64 hours of testing time. Collected performance statistics
       and conducted in-depth analysis of protocol effectiveness, generating automated testing reports for valuable
       insights and data-driven decision-making.`,
       `Collaborated closely with Linux systems, effectively troubleshoot and resolved networking issues on Linux
@@ -184,11 +184,25 @@ const experiences = [
     iconBg: "#383E56",
     date: "Apr. 2020 – Aug. 2020, Jan 2021 - Apr 2021",
     points: [
-      `Collaborated with the site reliability team to develop and optimize infrastructure modules/nodes on the company's cloud platform, 
-      established and maintained automated monitoring for the organization's systems, which provided valuable benefits to multiple teams`,
+      `Collaborated with the site reliability team to develop and optimize automation monitoring system on the company's AWS S3 cloud platform, 
+      established and maintained automated monitoring for the organization's systems, which provided valuable benefits to multiple teams.`,
       `Explored innovative approaches to leverage cloud technologies resulting in significant improvements to the company’s infrastructure 
-      and development process. Successfully reduced server load by 30% and enabled efficient local testing for streamlined development process.`,
+      and development process. Successfully reduced server load by 30% and enabled efficient local testing by replicate cloud environment using Docker
+      for streamlined development process.`,
       "Achieved a remarkable reduction in node deployment time to 2 minutes, with flexible add-on options.",
+    ],
+  },
+
+  {
+    title: "Undergraduate Research Fellowship",
+    company_name: "University of Waterloo",
+    icon: university,
+    iconBg: "#383E56",
+    date: "Jan. 2022 – Apr. 2022",
+    points: [
+      `Assisted professor in implementing USB device drivers (C++) for his experimental kernel that carried a new user-level thread 
+      implementation he was working on.`,
+      `Integrated xHCI USB controller, which enable supportive of various USB devices for the kernel.`,
     ],
   },
 
@@ -199,8 +213,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2023 - Present",
     points: [
-      "Specialize in Distributed system and cloud computing, by taking relevant courses",
-      "Further develop professional skills by taking advanced courses on more specialized topics",
+      "Specialize in Distributed system and cloud computing, by taking relevant courses.",
+      "Further develop professional skills by taking advanced courses on more specialized topics.",
     ],
   },
 ]
@@ -210,7 +224,8 @@ const projects = [
   {
     name: "Leisurely - Itinerary Day-trip Planner App",
     description:
-      `Leisurely is an itinerary day-trip planner app that generate personalize one day trip plan on Andriod operating systems.`,
+      `Leisurely is an itinerary day-trip planner app that generate personalize one day trip plan on Andriod operating systems. It supports
+      over 190 countries by integrate Google Map API with a distributed backend consists of 5 AWS servers`,
     tags: [
       {
         name: "Postgresql",
@@ -290,7 +305,7 @@ const projects = [
     name: "Real-time Operating System",
     description:
       `A operating system written in C on Keil MCB1700 board, which is able to display user's keyboard input, 
-      display a clock to the console and take user's input instructions`,
+      display a real-time clock with high accuracy in second to the console and take user's keyboard instructions.`,
     tags: [
       {
         name: "C",
@@ -308,7 +323,7 @@ const projects = [
     name: "Compiler for Logical Equation",
     description:
       `This Java-based project fully ultilize the Object-Orient Programming Principle, 
-      which is to automatically translate betweeen logical equation and its corresponding Logic Gate`,
+      which is to automatically translate betweeen logical equation and its corresponding Logic Gate scheme.`,
     tags: [
       {
         name: "Java",
