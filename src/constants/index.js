@@ -202,7 +202,7 @@ const experiences = [
     points: [
       `Assisted professor in implementing USB device drivers (C++) for his experimental kernel that carried a new user-level thread 
       implementation he was working on.`,
-      `Integrated xHCI USB controller, which enable supportive of various USB devices for the kernel.`,
+      `Implemented the xHCI USB controller, enabling comprehensive support for diverse USB devices within the kernel.`,
     ],
   },
 
