@@ -25,7 +25,7 @@ const Contact = () => {
     emailjs
       .send(
         'service_hse1ocp',
-        'template_hjwl87p',
+        'template_1tyi35a',
         {
           from_email: form.name,
           to_name: 'Xialin Liu',
@@ -34,7 +34,7 @@ const Contact = () => {
           to_email: 'xialinl@andrew.cmu.edu',
           message: form.message,
         },
-        'T3BwSNPQ6nk7icWWN'
+        'El-K6kfU0FSdHrdP3'
       )
       .then(
         (result) => {
