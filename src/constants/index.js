@@ -34,6 +34,8 @@ import {
   house,
   faceDetection,
   Go,
+  cudaLogo,
+  armLogo,
 } from "../assets"
 
 export const navLinks = [
@@ -125,6 +127,10 @@ const technologies = [
     icon: javaLogo,
   },
 
+  {
+    name: "Cuda",
+    icon: cudaLogo,
+  },
 ]
 
 const experiences = [
@@ -215,6 +221,20 @@ const experiences = [
     points: [
       "Specialize in Distributed system and cloud computing, by taking relevant courses.",
       "Further develop professional skills by taking advanced courses on more specialized topics.",
+    ],
+  },
+
+  {
+    title: "Firmware Engineer Intern",
+    company_name: "ARM Inc.",
+    icon: armLogo,
+    iconBg: "#383E56",
+    date: "May 2024 - Aug 2024",
+    points: [
+      "Designed and restructure the Chain of Trust (CoT) Device Tree (DT) file format of the boot loader module in open-source Trusted Firmware project (TF-A) used by multiple platforms.",
+      "Streamlined the build process of the project by developed command line tool to parse and convert DT file into corresponding C file, and validator for DT file in Python.",
+      "Further develop professional skills by taking advanced courses on more specialized topics.",
+      "Actively participated in debugging the TF-A secure monitor runtime firmware written in Assembly and C language, which improve the reliability and security of the trusted firmware used by company’s partners.",
     ],
   },
 ]
