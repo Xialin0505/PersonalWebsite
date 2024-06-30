@@ -61,7 +61,7 @@ import recipe from './recipe.avif'
 import leisurely from './leisurely.png'
 import os from './os.jpeg'
 import compiler from './compiler.webp'
-import cudaLogo from './cuda.png'
+import cudaLogo from './cuda.jpeg'
 import armLogo from './arm.jpeg'
 
 export {
